@@ -1,0 +1,47 @@
+variables
+=========
+3 types of variables
+=====================
+1.instance variable -- (non static variable)
+=====================
+1.it should be declared in class level(not inside the metthod)outside the method.
+2. no need to assingn the value
+3.instance variable  can be declare with any access specifier  and modifier(excepted abstract)
+4.scope of the variable will be based on the access specifier and modifiers
+5. if i didnt assign the value to instance variable ,it will take default value as 0;
+
+syntax
+======
+private int a=10;
+int a;
+
+2.static variable
+================= 
+1.it should be declared in class level(not inside the metthod)outside the method.
+2. no need to assingn the value
+3.static can be declare with any access specifier  and modifier(static,final) 
+4.scope of the variable will be based on the access specifier and modifiers
+5. if i didnt assign the value to instance variable ,it will take default value as 0
+
+example
+========
+private static int a=10;
+int a;
+
+3.loacal variable
+=================
+1.it should be declared inside the method-- method level variable
+2.value should be assigned
+3.don't declare any specifier and  modifiers because scope of local variable is within the method
+4. local variable does not have any default value
+5.if local variable and instance variable(class level),value assind for both.value will be taken from local variable only.
+if local variable doesnt have value then it will take the value from instance variable. 
+
+
+
+
+
+
+
+
+
